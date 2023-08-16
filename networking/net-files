@@ -1,8 +1,15 @@
-####Network files 
+# Network commands
+ping
+ifconfig
+ifup or ifdown
+netstat
+tcpdump
+
+####Network files ######
 
 #Interace Detection 
 #Assigining IP address 
-# Interface configuration files 
+## Interface configuration files 
 
 /etc/nsswitch.conf
 /etc/hostanme
