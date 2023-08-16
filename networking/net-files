@@ -7,4 +7,5 @@
 /etc/nsswitch.conf
 /etc/hostanme
 /etc/sysconfig/network
+/etc/sysconfig/network-scripts
 /etc/resolv.conf
