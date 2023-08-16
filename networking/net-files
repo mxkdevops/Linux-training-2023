@@ -9,3 +9,6 @@
 /etc/sysconfig/network
 /etc/sysconfig/network-scripts
 /etc/resolv.conf
+
+# Install net-tools in Centos 8
+sudo yum install net-tools
