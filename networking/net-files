@@ -1,0 +1,10 @@
+####Network files 
+
+#Interace Detection 
+#Assigining IP address 
+# Interface configuration files 
+
+/etc/nsswitch.conf
+/etc/hostanme
+/etc/sysconfig/network
+/etc/resolv.conf
