@@ -15,9 +15,31 @@ wc -l firlename.txt
 echo " my name is rony " |wc -c
 wc -c filename.txt
 ```
-### pipe command 
+### File display command 
 ```
 cat /etc/passwd | more
 cat /etc/passwd |less
 cat /etc/passwd |tail -10
+cat va/log/messages |head -2
+```
+### Filters / text processors commands
+```
+cut filename
+cut -c1 filename
+cut -c1-,2,4 filename
+cut -c1-3 , 5,9 ron.txt
+cut -c1-3,6-8 filename
+cut -b1-3 filename
+cut -d: -f 6 /etc/passwd
+cut -d: -f 1,3 /etc/group
+cut -d: -f 1,3 /etc/passwd
+```
+### awk -Text processor command
+```
+awk --version
+awk '{print $1}' /etc/passwd
+awk '{print $1}' /etc/group
+ls -la | awk '{print $1,$3}' 
+
+
 ```
