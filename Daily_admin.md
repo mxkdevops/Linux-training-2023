@@ -39,7 +39,12 @@ cut -d: -f 1,3 /etc/passwd
 awk --version
 awk '{print $1}' /etc/passwd
 awk '{print $1}' /etc/group
-ls -la | awk '{print $1,$3}' 
-
+ls -la | awk '{print $1,$3}'
+ls -l  | awk '{print $NF} 
+awk '/Jerry/ {print} 'file
+awk -F: '{print $1}' /etc/passwd
+awk -F: '{print $3}' /etc/passwd
+echo " Hello Tom " |awk ' {$2="Adam"; print$0}'
+awk 'length ($0) > 16 ' ron.txt 
 
 ```
