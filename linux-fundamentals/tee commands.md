@@ -11,7 +11,8 @@ ls -ltr |tee ltrdir.txt
 cat ltrdir.text
 ```
 ## add with -p option if any error it will still execute
-```echo "Error test" | tee -p warn-error.txt
+```
+echo "Error test" | tee -p warn-error.txt
 
 ```
 ### Help with tee command 
